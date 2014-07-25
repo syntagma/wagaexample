@@ -14,4 +14,8 @@ app.get('/nxtplabs', function (req, res){
 	res.sendfile("nxtplabs/nxtplab.html");	
 });
 
+app.get('/nxtplabs-stage', function (req, res){
+    res.sendfile("nxtplabs-stage/nxtplab.html");
+});
+
 app.listen(mainPort);
