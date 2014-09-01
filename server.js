@@ -18,4 +18,8 @@ app.get('/nxtplabs-stage', function (req, res){
     res.sendfile("nxtplabs-stage/nxtplab.html");
 });
 
+app.get('/argentinacorre', function (req, res){
+    res.sendfile("argentinacorre/argentinacorre.html");
+});
+
 app.listen(mainPort);
