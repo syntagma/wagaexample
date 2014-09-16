@@ -10,6 +10,11 @@ app.get('/run2accelerate', function (req, res){
 	res.sendfile("run2accelerate/run2accelerate.html");	
 });
 
+app.get('/space-color-festival-alicante', function (req, res){
+    res.sendfile("space-color-festival-alicante/space-color-festival-alicante.html");
+});
+
+
 app.get('/run2accelerate-prod', function (req, res){
 	res.sendfile("run2accelerate-prod/run2accelerate.html");	
 });
